@@ -71,10 +71,6 @@ and restored images (Wiener and Richardson-Lucy):
 
 ![Restoration comparison](results/03_restoration_comparison.png)
 
-| Method           | PSNR (dB) | SSIM |
-|------------------|-----------|------|
-| Wiener filter    | see `results/metrics.txt` | |
-| Richardson-Lucy  | see `results/metrics.txt` | |
 
 ## Resources
 
