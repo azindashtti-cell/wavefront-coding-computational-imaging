@@ -76,11 +76,13 @@ and restored images (Wiener and Richardson-Lucy):
 | Wiener filter    | see `results/metrics.txt` | |
 | Richardson-Lucy  | see `results/metrics.txt` | |
 
-## Possible extensions
+## Resources
 
-- Sweep `alpha` (mask strength) to quantify the depth-invariance /
-  contrast trade-off.
-- Add illumination coding (structured illumination) alongside pupil
-  phase coding.
-- Replace the fixed Wiener filter with a learned (CNN-based) restoration
-  model and compare.
+-Dowski, E. R., & Cathey, W. T. (1995). Extended depth of field through wave-front coding. Applied Optics, 34(11), 1859.
+
+-Cathey, W. T., & Dowski, E. R. (2002). New paradigm for imaging systems. Applied Optics, 41(29), 6080.
+
+
+-Sitzmann, V., Diamond, S., Peng, Y., et al. (2018). End-to-end optimization of optics and image processing for achromatic extended depth of field and super-resolution imaging. ACM Transactions on Graphics, 37, 1-13. https://
+
+-Wu, Y., Dong, L., Zhao, Y., et al. (2016). Analysis of wavefront coding imaging with cubic phase mask decenter and tilt. Applied Optics, 55(25), 7009. 
