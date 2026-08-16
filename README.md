@@ -84,9 +84,3 @@ and restored images (Wiener and Richardson-Lucy):
   phase coding.
 - Replace the fixed Wiener filter with a learned (CNN-based) restoration
   model and compare.
-
-## Author
-
-[Your name] — Master's student in Optics, [university]. Project built
-as part of a self-directed exploration of computational imaging and
-wavefront coding, related to research at Télécom SudParis / SAMOVAR.
