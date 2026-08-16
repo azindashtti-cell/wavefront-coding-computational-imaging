@@ -1,34 +1,3 @@
-"""
-wavefront_coding.py
-
-Core functions for simulating a computational imaging system with
-wavefront coding (cubic phase mask) for extended depth of field.
-
-Physics summary
-----------------
-A circular pupil (aperture) imposes a phase pattern phi(x, y) on the
-incoming wavefront. The point-spread function (PSF) of the optical
-system is the squared magnitude of the Fourier transform of the
-(complex) pupil function:
-
-    P(x, y) = A(x, y) * exp(i * phi(x, y))
-    PSF     = |FFT(P)|^2
-
-Two phase terms are combined:
-  - Defocus phase:  psi * (x^2 + y^2)          -> standard lens defocus
-  - Cubic phase:    alpha * (x^3 + y^3)         -> wavefront coding mask
-
-With alpha = 0 the PSF changes shape drastically as psi (defocus)
-increases. With a well-chosen alpha, the PSF stays approximately
-constant in shape across a wide range of psi -- this is the
-"depth invariance" property that wavefront coding exploits.
-
-Because the PSF is then known and roughly constant, a single fixed
-deconvolution filter (Wiener or Richardson-Lucy) can restore a sharp
-image from the coded, blurred raw capture -- regardless of the actual
-defocus amount.
-"""
-
 import numpy as np
 from scipy.fft import fft2, ifft2, fftshift
 from skimage.metrics import peak_signal_noise_ratio as psnr

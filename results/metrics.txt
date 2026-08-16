@@ -1,0 +1,4 @@
+Restoration quality metrics
+============================
+Wiener filter          : PSNR = 26.13 dB, SSIM = 0.7353
+Richardson-Lucy (30 it): PSNR = 19.19 dB, SSIM = 0.6448

@@ -1,21 +1,3 @@
-"""
-run_experiment.py
-
-Runs the full wavefront-coding experiment and saves all figures and
-metrics into the results/ folder:
-
-  1. PSF comparison (with vs. without cubic phase mask) across several
-     defocus levels.
-  2. MTF comparison for the same cases.
-  3. A simulated raw capture (blurred + noisy) using the coded system.
-  4. Deconvolution results (Wiener and Richardson-Lucy) vs. ground
-     truth, with PSNR / SSIM metrics.
-
-Usage
------
-    python run_experiment.py
-"""
-
 import os
 import numpy as np
 import matplotlib.pyplot as plt

@@ -82,7 +82,6 @@ and restored images (Wiener and Richardson-Lucy):
 
 -Cathey, W. T., & Dowski, E. R. (2002). New paradigm for imaging systems. Applied Optics, 41(29), 6080.
 
-
 -Sitzmann, V., Diamond, S., Peng, Y., et al. (2018). End-to-end optimization of optics and image processing for achromatic extended depth of field and super-resolution imaging. ACM Transactions on Graphics, 37, 1-13. https://
 
 -Wu, Y., Dong, L., Zhao, Y., et al. (2016). Analysis of wavefront coding imaging with cubic phase mask decenter and tilt. Applied Optics, 55(25), 7009. 
